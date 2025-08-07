@@ -3,7 +3,7 @@
 ## Install
 
 ```shell
-helm repo add stable https://charts.kubesphere.io/stable
+helm repo add stable https://charts.kubesphere-carryon.top
 ```
 
 ## Contribute
