@@ -3,7 +3,7 @@
 ## Install
 
 ```shell
-helm repo add main https://charts.kubesphere.io/main
+helm repo add main https://charts.kubesphere-carryon.top/main
 ```
 
 ## Contribute
