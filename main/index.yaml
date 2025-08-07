@@ -28,7 +28,7 @@ entries:
     name: apisix
     type: application
     urls:
-    - https://charts.kubesphere.io/main/apisix-0.7.2.tgz
+    - https://charts.kubesphere-carryon.top/main/apisix-0.7.2.tgz
     version: 0.7.2
   apisix-dashboard:
   - apiVersion: v2
@@ -43,7 +43,7 @@ entries:
     name: apisix-dashboard
     type: application
     urls:
-    - https://charts.kubesphere.io/main/apisix-dashboard-0.3.0.tgz
+    - https://charts.kubesphere-carryon.top/main/apisix-dashboard-0.3.0.tgz
     version: 0.3.0
   apisix-ingress-controller:
   - apiVersion: v2
@@ -63,7 +63,7 @@ entries:
     name: apisix-ingress-controller
     type: application
     urls:
-    - https://charts.kubesphere.io/main/apisix-ingress-controller-0.8.0.tgz
+    - https://charts.kubesphere-carryon.top/main/apisix-ingress-controller-0.8.0.tgz
     version: 0.8.0
   elasticsearch-exporter:
   - annotations:
@@ -90,7 +90,7 @@ entries:
     sources:
     - https://github.com/justwatchcom/elasticsearch_exporter
     urls:
-    - https://charts.kubesphere.io/main/elasticsearch-exporter-3.4.0.tgz
+    - https://charts.kubesphere-carryon.top/main/elasticsearch-exporter-3.4.0.tgz
     version: 3.4.0
   - annotations:
       app.kubesphere.io/category: Prometheus Exporter
@@ -116,7 +116,7 @@ entries:
     sources:
     - https://github.com/justwatchcom/elasticsearch_exporter
     urls:
-    - https://charts.kubesphere.io/main/elasticsearch-exporter-3.3.4.tgz
+    - https://charts.kubesphere-carryon.top/main/elasticsearch-exporter-3.3.4.tgz
     version: 3.3.4
   - annotations:
       app.kubesphere.io/category: Prometheus Exporter
@@ -142,7 +142,7 @@ entries:
     sources:
     - https://github.com/justwatchcom/elasticsearch_exporter
     urls:
-    - https://charts.kubesphere.io/main/elasticsearch-exporter-3.3.3.tgz
+    - https://charts.kubesphere-carryon.top/main/elasticsearch-exporter-3.3.3.tgz
     version: 3.3.3
   - annotations:
       app.kubesphere.io/category: Big Data
@@ -168,7 +168,7 @@ entries:
     sources:
     - https://github.com/justwatchcom/elasticsearch_exporter
     urls:
-    - https://charts.kubesphere.io/main/elasticsearch-exporter-3.3.2.tgz
+    - https://charts.kubesphere-carryon.top/main/elasticsearch-exporter-3.3.2.tgz
     version: 3.3.2
   - apiVersion: v1
     appVersion: 1.1.0
@@ -192,7 +192,7 @@ entries:
     sources:
     - https://github.com/justwatchcom/elasticsearch_exporter
     urls:
-    - https://charts.kubesphere.io/main/elasticsearch-exporter-3.3.1.tgz
+    - https://charts.kubesphere-carryon.top/main/elasticsearch-exporter-3.3.1.tgz
     version: 3.3.1
   fluentbit-operator:
   - apiVersion: v2
@@ -202,7 +202,7 @@ entries:
     digest: bba667475dbb88870bde889caec9e5b96ab873c60f72a342be141d548b23daa1
     name: fluentbit-operator
     urls:
-    - https://charts.kubesphere.io/main/fluentbit-operator-0.1.0.tgz
+    - https://charts.kubesphere-carryon.top/main/fluentbit-operator-0.1.0.tgz
     version: 0.1.0
   gitlab:
   - apiVersion: v1
@@ -265,7 +265,7 @@ entries:
     sources:
     - https://gitlab.com/gitlab-org/charts/gitlab
     urls:
-    - https://charts.kubesphere.io/main/gitlab-4.2.3.tgz
+    - https://charts.kubesphere-carryon.top/main/gitlab-4.2.3.tgz
     version: 4.2.3
   - apiVersion: v1
     appVersion: 13.2.2
@@ -283,7 +283,7 @@ entries:
     sources:
     - https://gitlab.com/gitlab-org/charts/gitlab
     urls:
-    - https://charts.kubesphere.io/main/gitlab-4.2.2.tgz
+    - https://charts.kubesphere-carryon.top/main/gitlab-4.2.2.tgz
     version: 4.2.2
   - apiVersion: v1
     appVersion: 12.4.1
@@ -301,7 +301,7 @@ entries:
     sources:
     - https://gitlab.com/gitlab-org/charts/gitlab
     urls:
-    - https://charts.kubesphere.io/main/gitlab-2.4.5.tgz
+    - https://charts.kubesphere-carryon.top/main/gitlab-2.4.5.tgz
     version: 2.4.5
   harbor:
   - annotations:
@@ -329,7 +329,7 @@ entries:
     - https://github.com/goharbor/harbor
     - https://github.com/goharbor/harbor-helm
     urls:
-    - https://charts.kubesphere.io/main/harbor-1.9.3.tgz
+    - https://charts.kubesphere-carryon.top/main/harbor-1.9.3.tgz
     version: 1.9.3
   - annotations:
       app.kubesphere.io/category: Image Registry
@@ -356,7 +356,7 @@ entries:
     - https://github.com/goharbor/harbor
     - https://github.com/goharbor/harbor-helm
     urls:
-    - https://charts.kubesphere.io/main/harbor-1.4.1.tgz
+    - https://charts.kubesphere-carryon.top/main/harbor-1.4.1.tgz
     version: 1.4.1
   - apiVersion: v1
     appVersion: 2.0.0
@@ -381,7 +381,7 @@ entries:
     - https://github.com/goharbor/harbor
     - https://github.com/goharbor/harbor-helm
     urls:
-    - https://charts.kubesphere.io/main/harbor-1.4.0.tgz
+    - https://charts.kubesphere-carryon.top/main/harbor-1.4.0.tgz
     version: 1.4.0
   - apiVersion: v1
     appVersion: 1.9.1
@@ -404,7 +404,7 @@ entries:
     - https://github.com/goharbor/harbor
     - https://github.com/goharbor/harbor-helm
     urls:
-    - https://charts.kubesphere.io/main/harbor-1.2.1.tgz
+    - https://charts.kubesphere-carryon.top/main/harbor-1.2.1.tgz
     version: 1.2.1
 ks-installer:
 - apiVersion: v2
@@ -419,7 +419,7 @@ ks-installer:
   name: ks-installer
   type: application
   urls:
-  - https://charts.kubesphere.io/main/ks-installer-0.3.1.tgz
+  - https://charts.kubesphere-carryon.top/main/ks-installer-0.3.1.tgz
   version: 0.3.1
 - apiVersion: v2
   appVersion: 3.2.0
@@ -433,7 +433,7 @@ ks-installer:
   name: ks-installer
   type: application
   urls:
-  - https://charts.kubesphere.io/main/ks-installer-0.3.0.tgz
+  - https://charts.kubesphere-carryon.top/main/ks-installer-0.3.0.tgz
   version: 0.3.0
 - apiVersion: v2
   appVersion: 3.1.0
@@ -447,7 +447,7 @@ ks-installer:
   name: ks-installer
   type: application
   urls:
-  - https://charts.kubesphere.io/main/ks-installer-0.2.2.tgz
+  - https://charts.kubesphere-carryon.top/main/ks-installer-0.2.2.tgz
   version: 0.2.2
 memcached:
 - annotations:
@@ -473,7 +473,7 @@ memcached:
   sources:
   - https://github.com/docker-library/memcached
   urls:
-  - https://charts.kubesphere.io/main/memcached-3.2.5.tgz
+  - https://charts.kubesphere-carryon.top/main/memcached-3.2.5.tgz
   version: 3.2.5
 - annotations:
     app.kubesphere.io/category: Database
@@ -498,7 +498,7 @@ memcached:
   sources:
   - https://github.com/docker-library/memcached
   urls:
-  - https://charts.kubesphere.io/main/memcached-3.2.4.tgz
+  - https://charts.kubesphere-carryon.top/main/memcached-3.2.4.tgz
   version: 3.2.4
 - annotations:
     app.kubesphere.io/category: Database
@@ -523,7 +523,7 @@ memcached:
   sources:
   - https://github.com/docker-library/memcached
   urls:
-  - https://charts.kubesphere.io/main/memcached-3.2.3.tgz
+  - https://charts.kubesphere-carryon.top/main/memcached-3.2.3.tgz
   version: 3.2.3
 minio:
 - annotations:
@@ -546,7 +546,7 @@ minio:
   sources:
   - https://github.com/minio/minio
   urls:
-  - https://charts.kubesphere.io/main/minio-6.0.5.tgz
+  - https://charts.kubesphere-carryon.top/main/minio-6.0.5.tgz
   version: 6.0.5
 - apiVersion: v1
   appVersion: RELEASE.2020-08-08T04-50-06Z
@@ -566,7 +566,7 @@ minio:
   sources:
   - https://github.com/minio/minio
   urls:
-  - https://charts.kubesphere.io/main/minio-6.0.4.tgz
+  - https://charts.kubesphere-carryon.top/main/minio-6.0.4.tgz
   version: 6.0.4
 - apiVersion: v1
   appVersion: master
@@ -588,7 +588,7 @@ minio:
   sources:
   - https://github.com/minio/minio
   urls:
-  - https://charts.kubesphere.io/main/minio-5.0.26.tgz
+  - https://charts.kubesphere-carryon.top/main/minio-5.0.26.tgz
   version: 5.0.26
 mysql:
 - annotations:
@@ -614,7 +614,7 @@ mysql:
   - https://github.com/kubernetes/charts
   - https://github.com/docker-library/mysql
   urls:
-  - https://charts.kubesphere.io/main/mysql-1.6.8.tgz
+  - https://charts.kubesphere-carryon.top/main/mysql-1.6.8.tgz
   version: 1.6.8
 - annotations:
     app.kubesphere.io/category: Database & Cache
@@ -639,7 +639,7 @@ mysql:
   - https://github.com/kubernetes/charts
   - https://github.com/docker-library/mysql
   urls:
-  - https://charts.kubesphere.io/main/mysql-1.6.7.tgz
+  - https://charts.kubesphere-carryon.top/main/mysql-1.6.7.tgz
   version: 1.6.7
 - annotations:
     app.kubesphere.io/category: Database
@@ -664,7 +664,7 @@ mysql:
   - https://github.com/kubernetes/charts
   - https://github.com/docker-library/mysql
   urls:
-  - https://charts.kubesphere.io/main/mysql-1.6.6.tgz
+  - https://charts.kubesphere-carryon.top/main/mysql-1.6.6.tgz
   version: 1.6.6
 mysql-exporter:
 - annotations:
@@ -684,7 +684,7 @@ mysql-exporter:
   sources:
   - https://github.com/prometheus/mysqld_exporter
   urls:
-  - https://charts.kubesphere.io/main/mysql-exporter-0.5.6.tgz
+  - https://charts.kubesphere-carryon.top/main/mysql-exporter-0.5.6.tgz
   version: 0.5.6
 - annotations:
     app.kubesphere.io/category: Database
@@ -703,7 +703,7 @@ mysql-exporter:
   sources:
   - https://github.com/prometheus/mysqld_exporter
   urls:
-  - https://charts.kubesphere.io/main/mysql-exporter-0.5.5.tgz
+  - https://charts.kubesphere-carryon.top/main/mysql-exporter-0.5.5.tgz
   version: 0.5.5
 - apiVersion: v1
   appVersion: v0.11.0
@@ -720,7 +720,7 @@ mysql-exporter:
   sources:
   - https://github.com/prometheus/mysqld_exporter
   urls:
-  - https://charts.kubesphere.io/main/mysql-exporter-0.5.4.tgz
+  - https://charts.kubesphere-carryon.top/main/mysql-exporter-0.5.4.tgz
   version: 0.5.4
 nfs-client-provisioner:
 - apiVersion: v1
@@ -739,7 +739,7 @@ nfs-client-provisioner:
   sources:
   - https://github.com/kubernetes-incubator/external-storage/tree/master/nfs-client
   urls:
-  - https://charts.kubesphere.io/main/nfs-client-provisioner-4.0.11.tgz
+  - https://charts.kubesphere-carryon.top/main/nfs-client-provisioner-4.0.11.tgz
   version: 4.0.11
 - apiVersion: v1
   appVersion: 4.0.2
@@ -757,7 +757,7 @@ nfs-client-provisioner:
   sources:
   - https://github.com/kubernetes-incubator/external-storage/tree/master/nfs-client
   urls:
-  - https://charts.kubesphere.io/main/nfs-client-provisioner-4.0.10.tgz
+  - https://charts.kubesphere-carryon.top/main/nfs-client-provisioner-4.0.10.tgz
   version: 4.0.10
 - apiVersion: v1
   appVersion: 3.1.0
@@ -775,7 +775,7 @@ nfs-client-provisioner:
   sources:
   - https://github.com/kubernetes-incubator/external-storage/tree/master/nfs-client
   urls:
-  - https://charts.kubesphere.io/main/nfs-client-provisioner-1.2.8.tgz
+  - https://charts.kubesphere-carryon.top/main/nfs-client-provisioner-1.2.8.tgz
   version: 1.2.8
 nginx:
 - annotations:
@@ -793,7 +793,7 @@ nginx:
   sources:
   - https://github.com/kubesphere/helm-charts/tree/master/src/main/nginx
   urls:
-  - https://charts.kubesphere.io/main/nginx-1.3.5.tgz
+  - https://charts.kubesphere-carryon.top/main/nginx-1.3.5.tgz
   version: 1.3.5
 - annotations:
     app.kubesphere.io/category: HTTP Service
@@ -810,7 +810,7 @@ nginx:
   sources:
   - https://github.com/kubesphere/helm-charts/tree/master/src/main/nginx
   urls:
-  - https://charts.kubesphere.io/main/nginx-1.3.4.tgz
+  - https://charts.kubesphere-carryon.top/main/nginx-1.3.4.tgz
   version: 1.3.4
 - apiVersion: v1
   appVersion: 1.18.0
@@ -825,7 +825,7 @@ nginx:
   sources:
   - https://github.com/kubesphere/helm-charts/tree/master/src/main/nginx
   urls:
-  - https://charts.kubesphere.io/main/nginx-1.3.3.tgz
+  - https://charts.kubesphere-carryon.top/main/nginx-1.3.3.tgz
   version: 1.3.3
 - apiVersion: v1
   appVersion: 1.18.0
@@ -840,7 +840,7 @@ nginx:
   sources:
   - https://github.com/kubesphere/helm-charts/tree/master/src/main/nginx
   urls:
-  - https://charts.kubesphere.io/main/nginx-1.3.2.tgz
+  - https://charts.kubesphere-carryon.top/main/nginx-1.3.2.tgz
   version: 1.3.2
 - apiVersion: v1
   appVersion: 1.17.5
@@ -855,7 +855,7 @@ nginx:
   sources:
   - https://github.com/kubesphere/helm-charts/tree/master/src/main/nginx
   urls:
-  - https://charts.kubesphere.io/main/nginx-1.3.1.tgz
+  - https://charts.kubesphere-carryon.top/main/nginx-1.3.1.tgz
   version: 1.3.1
 - apiVersion: v1
   appVersion: 1.17.5
@@ -870,7 +870,7 @@ nginx:
   sources:
   - https://github.com/kubesphere/helm-charts/tree/master/src/main/nginx
   urls:
-  - https://charts.kubesphere.io/main/nginx-1.3.0.tgz
+  - https://charts.kubesphere-carryon.top/main/nginx-1.3.0.tgz
   version: 1.3.0
 - apiVersion: v1
   appVersion: 1.17.5
@@ -885,7 +885,7 @@ nginx:
   sources:
   - https://github.com/kubesphere/helm-charts/tree/master/src/main/nginx
   urls:
-  - https://charts.kubesphere.io/main/nginx-1.2.1.tgz
+  - https://charts.kubesphere-carryon.top/main/nginx-1.2.1.tgz
   version: 1.2.1
 pvc-autoresizer:
 - apiVersion: v2
@@ -899,7 +899,7 @@ pvc-autoresizer:
   - https://github.com/kubesphere/pvc-autoresizer
   type: application
   urls:
-  - https://charts.kubesphere.io/main/pvc-autoresizer-0.1.0.tgz
+  - https://charts.kubesphere-carryon.top/main/pvc-autoresizer-0.1.0.tgz
   version: 0.1.0
 redis-exporter:
 - annotations:
@@ -920,7 +920,7 @@ redis-exporter:
   sources:
   - https://github.com/oliver006/redis_exporter
   urls:
-  - https://charts.kubesphere.io/main/redis-exporter-3.4.6.tgz
+  - https://charts.kubesphere-carryon.top/main/redis-exporter-3.4.6.tgz
   version: 3.4.6
 - annotations:
     app.kubesphere.io/category: Prometheus Exporter
@@ -940,7 +940,7 @@ redis-exporter:
   sources:
   - https://github.com/oliver006/redis_exporter
   urls:
-  - https://charts.kubesphere.io/main/redis-exporter-3.4.5.tgz
+  - https://charts.kubesphere-carryon.top/main/redis-exporter-3.4.5.tgz
   version: 3.4.5
 - annotations:
     app.kubesphere.io/category: Prometheus Exporter
@@ -960,7 +960,7 @@ redis-exporter:
   sources:
   - https://github.com/oliver006/redis_exporter
   urls:
-  - https://charts.kubesphere.io/main/redis-exporter-3.4.4.tgz
+  - https://charts.kubesphere-carryon.top/main/redis-exporter-3.4.4.tgz
   version: 3.4.4
 - annotations:
     app.kubesphere.io/category: Database
@@ -980,7 +980,7 @@ redis-exporter:
   sources:
   - https://github.com/oliver006/redis_exporter
   urls:
-  - https://charts.kubesphere.io/main/redis-exporter-3.4.3.tgz
+  - https://charts.kubesphere-carryon.top/main/redis-exporter-3.4.3.tgz
   version: 3.4.3
 - apiVersion: v1
   appVersion: 1.3.4
@@ -998,7 +998,7 @@ redis-exporter:
   sources:
   - https://github.com/oliver006/redis_exporter
   urls:
-  - https://charts.kubesphere.io/main/redis-exporter-3.4.2.tgz
+  - https://charts.kubesphere-carryon.top/main/redis-exporter-3.4.2.tgz
   version: 3.4.2
 sonarqube:
 - apiVersion: v1
@@ -1027,7 +1027,7 @@ sonarqube:
   sources:
   - https://github.com/SonarSource/docker-sonarqube
   urls:
-  - https://charts.kubesphere.io/main/sonarqube-6.7.0.tgz
+  - https://charts.kubesphere-carryon.top/main/sonarqube-6.7.0.tgz
   version: 6.7.0
 - apiVersion: v1
   appVersion: 8.2-community
@@ -1055,7 +1055,7 @@ sonarqube:
   sources:
   - https://github.com/SonarSource/docker-sonarqube
   urls:
-  - https://charts.kubesphere.io/main/sonarqube-6.6.1.tgz
+  - https://charts.kubesphere-carryon.top/main/sonarqube-6.6.1.tgz
   version: 6.6.1
 - apiVersion: v1
   appVersion: 8.2-community
@@ -1083,7 +1083,7 @@ sonarqube:
   sources:
   - https://github.com/SonarSource/docker-sonarqube
   urls:
-  - https://charts.kubesphere.io/main/sonarqube-6.6.0.tgz
+  - https://charts.kubesphere-carryon.top/main/sonarqube-6.6.0.tgz
   version: 6.6.0
 storageclass-accessor:
 - apiVersion: v2
@@ -1097,7 +1097,7 @@ storageclass-accessor:
   - https://github.com/kubesphere/storageclass-accessor
   type: application
   urls:
-  - https://charts.kubesphere.io/main/storageclass-accessor-0.1.0.tgz
+  - https://charts.kubesphere-carryon.top/main/storageclass-accessor-0.1.0.tgz
   version: 0.1.0
 tomcat:
 - annotations:
@@ -1114,7 +1114,7 @@ tomcat:
     name: yahavb
   name: tomcat
   urls:
-  - https://charts.kubesphere.io/main/tomcat-0.4.3.tgz
+  - https://charts.kubesphere-carryon.top/main/tomcat-0.4.3.tgz
   version: 0.4.3
 - annotations:
     app.kubesphere.io/category: HTTP Service
@@ -1130,7 +1130,7 @@ tomcat:
     name: yahavb
   name: tomcat
   urls:
-  - https://charts.kubesphere.io/main/tomcat-0.4.2.tgz
+  - https://charts.kubesphere-carryon.top/main/tomcat-0.4.2.tgz
   version: 0.4.2
 - apiVersion: v1
   appVersion: 8.5.41
@@ -1144,7 +1144,7 @@ tomcat:
     name: yahavb
   name: tomcat
   urls:
-  - https://charts.kubesphere.io/main/tomcat-0.4.1+1.tgz
+  - https://charts.kubesphere-carryon.top/main/tomcat-0.4.1+1.tgz
   version: 0.4.1+1
 - apiVersion: v1
   appVersion: 8.5.41
@@ -1158,6 +1158,6 @@ tomcat:
     name: yahavb
   name: tomcat
   urls:
-  - https://charts.kubesphere.io/main/tomcat-0.4.0-r1.tgz
+  - https://charts.kubesphere-carryon.top/main/tomcat-0.4.0-r1.tgz
   version: 0.4.0-r1
 generated: "2025-04-18T05:38:15.402208164Z"
