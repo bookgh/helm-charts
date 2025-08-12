@@ -1,5 +1,5 @@
 image:
-  repository: kubesphere/etcd
+  repository: kubesphereon/etcd
   # tag:
   pullPolicy: IfNotPresent
 

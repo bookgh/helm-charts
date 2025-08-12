@@ -1,5 +1,5 @@
 image:
-  repository: kubesphere/storageclass-accessor
+  repository: kubesphereon/storageclass-accessor
 
 webhook:
   timeoutSeconds: 5

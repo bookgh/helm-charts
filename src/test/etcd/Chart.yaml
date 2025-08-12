@@ -8,6 +8,6 @@ sources:
 - https://github.com/kubesphere/helm-charts/tree/master/src/test/etcd
 maintainers:
 - name: KubeSphere Community
-  email: kubesphere@yunify.com
+  email: whenegghitsrock@gmail.com
 annotations:
   "app.kubesphere.io/category": "Database & Cache"

@@ -3,7 +3,7 @@
 
 admission:
   image:
-    repository: kubespheredev/kube-webhook-certgen
+    repository: kubesphereondev/kube-webhook-certgen
     tag: v1.1.1
     pullPolicy: IfNotPresent
   serviceAccount:
@@ -14,7 +14,7 @@ manager:
   apiHosts: ":50051"
   webhookPort: 443
   image:
-    repository: kubesphere/openelb
+    repository: kubesphereon/openelb
     tag: v0.5.0
     pullPolicy: IfNotPresent
   resources:
