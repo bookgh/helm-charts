@@ -3,7 +3,7 @@
 ## Install
 
 ```shell
-helm repo add stable https://charts.kubesphere-carryon.top
+helm repo add stable https://bookgh.github.io/helm-charts
 ```
 
 ## Contribute
