@@ -5,7 +5,7 @@
 Find the repository you want to use under `src/` directory and enter below command:
 
 ```shell
-helm repo add main https://charts.kubesphere-carryon.top/main
+helm repo add main https://bookgh.github.io/helm-charts/main
 ```
 
 ## How to contribute
