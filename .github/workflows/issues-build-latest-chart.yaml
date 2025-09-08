@@ -18,7 +18,7 @@ jobs:
       
       - name: deploy index.yaml
         env:
-          BASE_URL: https://charts.kubesphere-carryon.top
+          BASE_URL: https://bookgh.github.io/helm-charts
         run: ./build.sh deploy_charts
 
       - uses: stefanzweifel/git-auto-commit-action@v4
