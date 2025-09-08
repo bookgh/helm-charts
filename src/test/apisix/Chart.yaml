@@ -25,7 +25,7 @@ home: https://apisix.apache.org/
 dependencies:
 - name: etcd
   version: 0.1.1
-  repository: https://charts.kubesphere.io/test
+  repository: https://bookgh.github.io/helm-charts/test
   condition: etcd.enabled
 
 # A chart can be either an 'application' or a 'library' chart.

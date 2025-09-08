@@ -3,7 +3,7 @@
 ## Install
 
 ```shell
-helm repo add stable https://bookgh.github.io/helm-charts
+helm repo add stable https://bookgh.github.io/helm-charts/stable
 ```
 
 ## Contribute

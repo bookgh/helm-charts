@@ -18,7 +18,7 @@ $ helm install test/rbd-provisioner -n kube-system --name-template=rbd-provision
 To install the chart with the release name `my-release`:
 
 ```console
-helm repo add test https://charts.kubesphere.io/test
+helm repo add test https://bookgh.github.io/helm-charts/test
 helm install test/rbd-provisioner -n kube-system --name-template=rbd-provisioner --set ceph.mon=,ceph.adminKey=,ceph.userKey=
 
 ```

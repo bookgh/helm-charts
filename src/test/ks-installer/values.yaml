@@ -6,7 +6,7 @@ replicaCount: 1
 
 registry: ""
 image:
-  repository: kubesphereon/ks-installer
+  repository: kubesphere/ks-installer
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: v3.2.1

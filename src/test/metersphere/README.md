@@ -4,7 +4,7 @@
 
 ```bash
 # for China users: helm repo add test https://charts.kubesphere.com.cn/test
-helm repo add test https://charts.kubesphere.io/test
+helm repo add test https://bookgh.github.io/helm-charts/test
 helm install metersphere -n metersphere test/metersphere
 ```
 

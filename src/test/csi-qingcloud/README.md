@@ -11,7 +11,7 @@ helm install test/csi-qingcloud
 To install the chart with the release name `csi-qingcloud`:
 
 ```console
-helm repo add test https://charts.kubesphere.io/test
+helm repo add test https://bookgh.github.io/helm-charts/test
 helm install test/csi-qingcloud --name-template csi-qingcloud --namespace kube-system  \
 --set config.qy_access_key_id=key,config.qy_secret_access_key=secret,config.zone=zone
 ```

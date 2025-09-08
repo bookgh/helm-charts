@@ -41,7 +41,7 @@ A/B testing, canary release, blue-green deployment, limit rate, defense against 
 
 
 ```console
-helm repo add test https://charts.kubesphere.io/test
+helm repo add test https://bookgh.github.io/helm-charts/test
 helm repo update
 helm install test/apisix
 ```

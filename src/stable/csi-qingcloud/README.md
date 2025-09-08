@@ -11,7 +11,7 @@ helm install stable/csi-qingcloud
 To install the chart with the release name `csi-qingcloud`:
 
 ```console
-helm repo add stable https://charts.kubesphere.io/stable
+helm repo add stable https://bookgh.github.io/helm-charts/stable
 helm install stable/csi-qingcloud --name-template csi-qingcloud --namespace kube-system  \
 --set config.qy_access_key_id=key,config.qy_secret_access_key=secret,config.zone=zone
 ```

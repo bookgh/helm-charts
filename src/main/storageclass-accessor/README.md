@@ -3,7 +3,7 @@
 ## How to use 
 You need to add this repository to your Helm repositories:
 ```shell
-helm repo add main https://charts.kubesphere.io/main
+helm repo add main https://bookgh.github.io/helm-charts/main
 ```
 
 ## Quick start 

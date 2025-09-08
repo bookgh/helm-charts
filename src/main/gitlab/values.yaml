@@ -579,7 +579,7 @@ nginx-ingress:
   tcpExternalConfig: "true"
   controller:
     image:
-      repository: kubesphereon/nginx-ingress-controller
+      repository: kubesphere/nginx-ingress-controller
       tag: 0.21.0
     config:
       hsts-include-subdomains: "false"

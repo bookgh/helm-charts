@@ -11,7 +11,7 @@ helm install stable/ccm-qingcloud
 To install the chart with the release name `my-release`:
 
 ```console
-helm repo add stable https://charts.kubesphere.io/stable
+helm repo add stable https://bookgh.github.io/helm-charts/stable
 helm repo update
 helm install --name my-release stable/ccm-qingcloud --namespace kube-system
 ```

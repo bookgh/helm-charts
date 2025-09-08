@@ -3,7 +3,7 @@
 ## TL;DR;
 
 ```console
-helm repo add test https://charts.kubesphere.io/test
+helm repo add test https://bookgh.github.io/helm-charts/test
 helm repo update
 helm install test/etcd
 ```
@@ -13,7 +13,7 @@ helm install test/etcd
 To install the chart with the release name `my-release`:
 
 ```console
-helm repo add test https://charts.kubesphere.io/test
+helm repo add test https://bookgh.github.io/helm-charts/test
 helm repo update
 helm install --name my-release test/etcd
 ```

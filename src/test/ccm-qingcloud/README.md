@@ -11,7 +11,7 @@ helm install ks-test/ccm-qingcloud
 To install the chart with the release name `my-release`:
 
 ```console
-helm repo add ks-test https://charts.kubesphere.io/test
+helm repo add ks-test https://bookgh.github.io/helm-charts/test
 helm repo update
 helm install --name my-release ks-test/ccm-qingcloud --namespace kube-system
 ```

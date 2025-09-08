@@ -3,7 +3,7 @@
 ## TL;DR;
 
 ```console
-helm repo add ks-test https://charts.kubesphere.io/test
+helm repo add ks-test https://bookgh.github.io/helm-charts/test
 helm repo update
 helm install ks-test/cni-hostnic
 ```

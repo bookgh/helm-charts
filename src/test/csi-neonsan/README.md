@@ -16,7 +16,7 @@ helm install test/csi-neonsan
 To install the chart with the release name `csi-neonsan`:
 
 ```console
-helm repo add test https://charts.kubesphere.io/test
+helm repo add test https://bookgh.github.io/helm-charts/test
 helm install test/csi-neonsan --name-template csi-neonsan --namespace kube-system
 ```
 

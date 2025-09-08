@@ -5,7 +5,7 @@ This Helm repository is expected to be only used for experimental/verification p
 ## Install
 
 ```shell
-helm repo add test https://bookgh.github.io/helm-charts
+helm repo add test https://bookgh.github.io/helm-charts/test
 ```
 
 ## Contribute

@@ -5,7 +5,7 @@
 You need to add this repository to your Helm repositories:
 
 ```sh
-helm repo add main https://charts.kubesphere.io/main
+helm repo add main https://bookgh.github.io/helm-charts/main
 helm repo update
 ```
 

@@ -10,7 +10,7 @@ When developing cloud-based application in Nocalhost, any code changes can immed
 ## Get Repo Info
 
 ```console
-helm repo add stable https://charts.kubesphere.io/stable
+helm repo add stable https://bookgh.github.io/helm-charts/stable
 helm repo update
 ```
 
